@@ -1,0 +1,6 @@
+{
+  "name": "Parallax Sourcing Guide",
+  "description": "Gift and vendor sourcing guide for the CSS Society Parallax signature event with verified pricing, vendor trust signals, and quantity constraints.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
