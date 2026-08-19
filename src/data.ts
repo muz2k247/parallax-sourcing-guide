@@ -70,26 +70,26 @@ export const DEFAULT_CALCULATOR_ITEMS: CalculatorItem[] = [
     id: 'chief-shield',
     label: 'Chief Guest Shield (Premium)',
     category: 'Chief Guest',
-    avgPrice: 7000,
-    unitPrice: 7000,
-    quantity: 1,
+    avgPrice: 6500,
+    unitPrice: 6500,
+    quantity: 2,
     note: 'Beveled crystal or heavy brass on mahogany base'
   },
   {
     id: 'chief-flowers',
     label: 'Fresh Flower Bouquet',
     category: 'Chief Guest',
-    avgPrice: 2250,
-    unitPrice: 2250,
-    quantity: 1,
+    avgPrice: 2000,
+    unitPrice: 2000,
+    quantity: 2,
     note: 'Hand-tied fresh roses and lilies with greeting card'
   },
   {
     id: 'std-shield',
     label: 'Standard Honor Shield',
     category: 'Contributors & Vendors',
-    avgPrice: 5000,
-    unitPrice: 5000,
+    avgPrice: 3000,
+    unitPrice: 3000,
     quantity: 10,
     note: 'Hardwood base with etched golden metal plate'
   },
@@ -97,36 +97,36 @@ export const DEFAULT_CALCULATOR_ITEMS: CalculatorItem[] = [
     id: 'certificates',
     label: 'Event Certificates',
     category: 'Contributors & Vendors',
-    avgPrice: 250,
-    unitPrice: 250,
-    quantity: 20,
+    avgPrice: 180,
+    unitPrice: 180,
+    quantity: 10,
     note: '300gsm cardstock with gold foil border'
   },
   {
     id: 'std-pen',
     label: 'Custom Metal Pen (Standard)',
     category: 'VIP Gifts',
-    avgPrice: 250,
-    unitPrice: 250,
-    quantity: 15,
+    avgPrice: 200,
+    unitPrice: 200,
+    quantity: 10,
     note: 'Laser engraved society logo and tagline'
   },
   {
     id: 'exec-pen',
     label: 'Executive Metal Pen',
     category: 'VIP Gifts',
-    avgPrice: 1000,
-    unitPrice: 1000,
-    quantity: 5,
+    avgPrice: 900,
+    unitPrice: 900,
+    quantity: 10,
     note: 'Weighted twist-action executive pen in velvet pouch'
   },
   {
     id: 'boxed-set',
     label: 'Boxed Notebook + Pen Set',
     category: 'VIP Gifts',
-    avgPrice: 2000,
-    unitPrice: 2000,
-    quantity: 5,
+    avgPrice: 1800,
+    unitPrice: 1800,
+    quantity: 10,
     note: 'PU leather journal and metal pen in matte gift box'
   }
 ];
@@ -135,58 +135,58 @@ export const BUDGET_TABLE: BudgetRow[] = [
   {
     id: 'budget-shield-cg',
     item: 'Chief Guest Shield (Premium)',
-    verifiedRange: 'PKR 6,500 to 8,000',
-    workingBudget: 'PKR 7,000',
+    verifiedRange: 'PKR 6,000 to 8,000',
+    workingBudget: 'PKR 6,500',
     targetGroup: 'Chief Guest',
-    avgPrice: 7000
+    avgPrice: 6500
   },
   {
     id: 'budget-flowers',
     item: 'Flower Bouquet',
     verifiedRange: 'PKR 1,300 to 7,500',
-    workingBudget: 'PKR 2,250',
+    workingBudget: 'PKR 2,000',
     targetGroup: 'Chief Guest',
-    avgPrice: 2250
+    avgPrice: 2000
   },
   {
     id: 'budget-shield-std',
     item: 'Standard Honor Shield',
     verifiedRange: 'PKR 2,500 to 5,500',
-    workingBudget: 'PKR 5,000',
+    workingBudget: 'PKR 3,000',
     targetGroup: 'Contributors & Vendors',
-    avgPrice: 5000
+    avgPrice: 3000
   },
   {
     id: 'budget-cert',
     item: 'Certificate',
     verifiedRange: 'PKR 120 to 320',
-    workingBudget: 'PKR 250',
+    workingBudget: 'PKR 180',
     targetGroup: 'Contributors & Vendors',
-    avgPrice: 250
+    avgPrice: 180
   },
   {
     id: 'budget-pen-std',
     item: 'Custom Metal Pen (Standard)',
     verifiedRange: 'PKR 120 to 500',
-    workingBudget: 'PKR 250',
+    workingBudget: 'PKR 200',
     targetGroup: 'Remaining VIPs',
-    avgPrice: 250
+    avgPrice: 200
   },
   {
     id: 'budget-pen-exec',
     item: 'Executive Metal Pen',
     verifiedRange: 'PKR 800 to 2,500',
-    workingBudget: 'PKR 1,000',
+    workingBudget: 'PKR 900',
     targetGroup: 'Remaining VIPs',
-    avgPrice: 1000
+    avgPrice: 900
   },
   {
     id: 'budget-set',
     item: 'Notebook + Pen Boxed Set',
     verifiedRange: 'PKR 1,500 to 3,500',
-    workingBudget: 'PKR 2,000',
+    workingBudget: 'PKR 1,800',
     targetGroup: 'Remaining VIPs',
-    avgPrice: 2000
+    avgPrice: 1800
   }
 ];
 
@@ -317,165 +317,6 @@ export const UNIFIED_VENDORS: UnifiedVendor[] = [
     ]
   },
   {
-    id: 'vendor-samad-brothers',
-    name: 'Samad Brothers',
-    url: 'https://samadbrothers.pk/trophy-manufacturers-in-pakistan/',
-    tagline: 'Premier trophy, shield and crystal award manufacturers since 1965',
-    description: 'One of the oldest and most respected trophy and shield makers in Pakistan, located in Aabpara Market, Islamabad. Decades of experience producing institutional awards for universities, armed forces, and government ministries.',
-    whatTheyProvide: [
-      'Heavy diamond-cut crystal awards for Chief Guests and dignitaries',
-      'Traditional wooden shields with engraved brass emblems and plates',
-      'Acrylic commemorative plaques, medal sets, and customized signboards'
-    ],
-    offerings: [
-      {
-        category: 'Chief Guest Shields',
-        items: 'Multi-faceted beveled crystal trophies, heavy optic glass awards',
-        priceGuide: 'PKR 6,500 to 8,000 (Premium tier)',
-        notes: 'Deep optical etching and custom presentation gift box'
-      },
-      {
-        category: 'Standard Shields',
-        items: 'Polished walnut / mahogany base with brass shield cutouts and gold foil',
-        priceGuide: 'PKR 2,500 to 5,000',
-        notes: 'Standard tier for contributors, judges, and society sponsors'
-      }
-    ],
-    pricingSummary: 'Standard Shields: PKR 2,500 to 5,000 | Chief Guest Tier: PKR 6,500 to 8,000',
-    location: 'Aabpara Market, Islamabad (Physical factory and showroom)',
-    turnaround: '5 to 7 working days',
-    minimumOrder: 'Custom order basis; flexible on single or small batch VIP pieces',
-    paymentTerms: 'Advance bank transfer or direct showroom pickup',
-    highlights: [
-      'Institutional legacy spanning over 60 years in Pakistan',
-      'Physical showroom and manufacturing unit in Islamabad',
-      'Expertise in high grade heavy crystal cutting'
-    ],
-    caveats: [
-      'No automated online cart checkout; requires phone or WhatsApp coordination'
-    ]
-  },
-  {
-    id: 'vendor-glorious-gifts',
-    name: 'Glorious Gifts',
-    url: 'https://www.gloriousgifts.pk/collections/deal',
-    tagline: 'Office & home decor brand with select gift combos and desk items',
-    description: 'Branded as Pakistan office and home decoration brand specializing in desk name plates, Islamic wall frames, neon signage, and decor. They also offer select customized combo products such as metal pen + smart temperature flask sets, notebook + pen combos, and engraved keychains. For bulk society orders, confirm fulfillment capacity and lead times directly before ordering.',
-    whatTheyProvide: [
-      'Curated Gift Combos (Metal pen, smart temperature bottle, notebook, and keychain sets)',
-      'Custom laser engraved smart temperature vacuum flasks',
-      'Executive desk name plates, wooden frames, and desk decor mementos',
-      'Engraved metal pens and personalized accessories'
-    ],
-    offerings: [
-      {
-        category: 'Curated Deals & Combos',
-        items: 'Multi-piece gift sets (Smart Flask + Leather Diary + Metal Pen in presentation box)',
-        priceGuide: 'PKR 1,800 to 3,800 per bundle deal',
-        notes: 'Verify batch packaging and stock with sales team before placing large orders'
-      },
-      {
-        category: 'Desk & Promotional Items',
-        items: 'Laser engraved thermal flasks, keychains, and desk name plates',
-        priceGuide: 'PKR 700 to 1,800 per item',
-        notes: 'Direct WhatsApp coordination for layout proofing'
-      }
-    ],
-    pricingSummary: 'Deal Bundles: PKR 1,800 to 3,800 | Flasks & Desk Items: PKR 700 to 1,800',
-    location: 'Nationwide dispatch with active online store',
-    turnaround: '4 to 6 working days',
-    minimumOrder: 'Low minimums on featured deal packages',
-    paymentTerms: 'Online payment and Cash on Delivery',
-    highlights: [
-      'Dedicated deals collection offering bundled savings',
-      'Smart temperature sensor flasks popular for modern events',
-      'Pre-assembled gift boxes save time for society executives'
-    ],
-    caveats: [
-      'Catalog is primarily focused on office and home decor; verify bulk society packaging capacity and current stock with sales team prior to ordering.',
-      'Stock on specific deal sets changes frequently; re-confirm active inventory.'
-    ]
-  },
-  {
-    id: 'vendor-design-your-own',
-    name: 'Design Your Own (DYO)',
-    url: 'https://designyourown.pk/',
-    tagline: 'Interactive on-demand custom merchandise, apparel and branded swag',
-    description: 'Pakistan on-demand customized apparel and merchandise platform with an interactive online design previewer. Ideal for society executive hoodies, volunteer team shirts, custom mugs, and reusable steel bottles.',
-    whatTheyProvide: [
-      'Custom Society Hoodies, sweatshirts, and embroidered polo shirts',
-      'Crew T-shirts for event management and student volunteers',
-      'Custom printed ceramic mugs, travel tumblers, and metal water bottles',
-      'Branded canvas tote bags, caps, and custom souvenir stickers'
-    ],
-    offerings: [
-      {
-        category: 'Custom Event Apparel',
-        items: 'Fleece hoodies, polo shirts, and 100% cotton crew t-shirts with screen or DTF print',
-        priceGuide: 'T-shirts: PKR 800 to 1,400 | Hoodies: PKR 2,200 to 3,200',
-        notes: 'Bulk order discounts applied on 20+ pieces'
-      },
-      {
-        category: 'Custom Drinkware & Accessories',
-        items: 'Personalized ceramic coffee mugs and matte stainless steel water bottles',
-        priceGuide: 'Mugs: PKR 450 to 750 | Metal Bottles: PKR 1,200 to 1,800',
-        notes: 'Full color logo printing with online preview'
-      }
-    ],
-    pricingSummary: 'T-shirts: PKR 800 to 1,400 | Hoodies: PKR 2,200 to 3,200 | Mugs: PKR 450 to 750',
-    location: 'Nationwide fulfillment with responsive online platform',
-    turnaround: '5 to 7 working days',
-    minimumOrder: '1 piece minimum (single unit ordering supported); bulk pricing available',
-    paymentTerms: 'Bank transfer, debit/credit cards, and COD',
-    highlights: [
-      'Live online mockup preview before submitting order',
-      'No strict minimum quantity constraint for test samples',
-      'Wide apparel sizing range suitable for university teams'
-    ],
-    caveats: [
-      'Detailed embroidery on hoodies requires slight extra lead time'
-    ]
-  },
-  {
-    id: 'vendor-safaprinters',
-    name: 'Safa Printers',
-    url: 'https://www.safaprinters.com/product/custom-shields/',
-    tagline: 'Custom wooden, brass and crystal honor shields specialists',
-    description: 'A commercial printing and awards specialist in Pakistan known for producing custom fabricated wooden honor shields, brass engraved plaques, and commemorative trophies for institutions, sports events, and corporate milestones.',
-    whatTheyProvide: [
-      'Custom wooden award shields with brass cutout logos and golden plate etching',
-      'Optical crystal and beveled acrylic honor trophies',
-      'Executive desk nameplates, commemorative plaques, and customized mementos'
-    ],
-    offerings: [
-      {
-        category: 'Custom Shields',
-        items: 'Traditional hardwood shields with customized metal plates and velvet presentation boxes',
-        priceGuide: 'PKR 2,000 to 7,500 per shield',
-        notes: 'Available in standard, medium, and Chief Guest large dimensions'
-      },
-      {
-        category: 'Desk Plaques',
-        items: 'Engraved brass on polished wooden stands and acrylic desk blocks',
-        priceGuide: 'PKR 1,500 to 4,000',
-        notes: 'Suitable for speaker and judge appreciation'
-      }
-    ],
-    pricingSummary: 'Honor Shields: PKR 2,000 to 7,500 | Plaques: PKR 1,500 to 4,000',
-    location: 'Lahore and nationwide delivery',
-    turnaround: '5 to 8 working days',
-    minimumOrder: 'Custom quote per batch; small quantities welcomed',
-    paymentTerms: 'Advance deposit and balance on completion',
-    highlights: [
-      'Specialized dedicated shield product catalog',
-      'Classic institutional look with wood and brass accents',
-      'Custom sizing tailored to society budget tiers'
-    ],
-    caveats: [
-      'Digital proof confirmation required for brass layout before machining'
-    ]
-  },
-  {
     id: 'vendor-helloprint',
     name: 'HelloPrint.pk',
     url: 'https://helloprint.pk/',
@@ -593,15 +434,11 @@ export const UNIFIED_VENDORS: UnifiedVendor[] = [
 export const ORDERING_CHECKLIST = [
   {
     id: 'check-top-vendors',
-    text: 'Priority Spend Verification: Perform a direct WhatsApp or phone confirmation with the largest line item suppliers (Samad Brothers for Chief Guest shields and CorporateGifting.pk for bulk awards) to lock in exact production turnaround and current material rates.'
+    text: 'Priority Spend Verification: Perform a direct WhatsApp or phone confirmation with CorporateGifting.pk to lock in exact production turnaround and current material rates for bulk shields and premium awards.'
   },
   {
     id: 'check-moq-lanyards',
     text: 'MOQ and Batch Rules: Confirm product specific minimums prior to finalizing order quantities (for example, HelloPrint requires a 100 piece minimum on standard custom lanyard lines, while Aprints offers 1 piece MOQ on pens).'
-  },
-  {
-    id: 'check-glorious-scope',
-    text: 'Vendor Positioning Check: When ordering from GloriousGifts, verify corporate packaging capacity and inventory in advance since their catalog is primarily centered around home and office decor items.'
   },
   {
     id: 'check-proof',
@@ -613,6 +450,6 @@ export const ORDERING_CHECKLIST = [
   },
   {
     id: 'check-lead-times',
-    text: 'Production and Buffer Schedule: Standard manufacturing takes 5 to 8 working days. Schedule a 2 to 3 day buffer before the Parallax event to account for courier transit to campus.'
+    text: 'Production and Buffer Schedule: Standard manufacturing takes 3 to 8 working days. Schedule a 2 to 3 day buffer before the Parallax event to account for courier transit to campus.'
   }
 ];

@@ -49,11 +49,10 @@ export const VerifiedSummaryModal: React.FC<VerifiedSummaryModalProps> = ({ isOp
     });
 
     text += `\n5. KEY SOURCING & PROCUREMENT PROTOCOL:\n`;
-    text += `  1. Top Spend Verification: Conduct a quick WhatsApp or phone check with Samad Brothers (Chief Guest shields) and CorporateGifting.pk (bulk awards) before locking production.\n`;
+    text += `  1. Top Spend Verification: Conduct a quick WhatsApp or phone check with CorporateGifting.pk before locking production for bulk awards and shields.\n`;
     text += `  2. Artwork Approval: Always demand a digital proof for spelling, logo resolution, and date formatting before authorizing bulk engraving or printing.\n`;
     text += `  3. MOQ Verification: Confirm item specific minimums directly (for example, HelloPrint requires 100 pcs on custom lanyards, while Aprints offers 1 pc on custom pens).\n`;
-    text += `  4. Vendor Scope Note: GloriousGifts is primarily an office/home decor brand; verify bulk society packaging capacity directly with sales before placing large orders.\n`;
-    text += `  5. Schedule Buffer: Standard production takes 5 to 8 working days. Allow 2 to 3 days buffer for courier delivery to campus.\n`;
+    text += `  4. Schedule Buffer: Standard production takes 3 to 8 working days. Allow 2 to 3 days buffer for courier delivery to campus.\n`;
 
     return text;
   };
